@@ -1,0 +1,357 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Italic.ttf') format('truetype');
+    font-style: italic;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  body, p, li, a, span, strong, em,.right,.sub {
+    font-family: 'Raleway', sans-serif;
+  }
+
+
+
+html { 
+    margin: auto;
+    background: #f5f5f5;   
+    
+}
+body { 
+    font-family: 'Raleway';
+    background: #e3e3e3;
+    margin: 0 auto;
+    width: 1160px;
+}
+
+
+.bloc_header {
+    background: #17abb3;
+    color: white;
+    display: flex;
+    padding: 30px 0;
+    
+}
+
+.bloc_header img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 5px solid rgb(250, 250, 250);
+    box-shadow: 6px 6px 25px black;
+    cursor: zoom-in;
+    object-fit: cover;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.bloc_header_text h1 {
+    font-family: 'Lato';
+    font-size: 2.5em;
+    color: white;
+    margin: 0;
+    padding-left: 20px;
+}
+.bloc_header_text {
+    text-align: center;
+    margin-left: 290px;
+    margin-bottom: 10px;
+    
+}
+
+
+.bloc_header_info ul {
+    display: grid;
+    grid-template-columns: repeat(2, auto); 
+    gap: 10px 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    
+  }
+  
+  .bloc_header_info li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-size: 0.95em;
+  }
+
+  .bloc_header_info a {
+    color: white;               
+    text-decoration: none;     
+    font-style: normal;        
+  }
+  
+  .bloc_header_info a:hover {
+    text-decoration: underline; /
+  }
+  
+  
+.bloc {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+.bloc_global {
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex: 1; 
+    background: rgba(255, 0, 0, 0.945);
+    padding: 20px;
+    box-sizing: border-box; 
+    overflow-wrap: break-word; 
+    word-break: break-word;
+    
+}
+.bloc_left {
+    flex-basis: 30%;
+    margin-right: 30px;
+    padding-left: 50;
+}
+
+.bloc_left h3 {
+    font-family: 'Lato';
+    text-align: left;
+    padding-left: 20px;
+    padding-block: 5px;
+}
+
+
+
+ .bloc_left ul li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 0.95em;
+ }
+
+.bloc_left hr {
+    border: 0.5px solid #b4b4b46b;
+    margin: 20px ;
+    padding: 10;
+}
+
+
+.competences ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .competences li {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 1em;
+  }
+  
+  .competences .label {
+    font-weight: bold;
+    color: #333;
+    padding-left: 20px 
+  }
+  
+  .competences .stars {
+    color: #17abb3; 
+    font-family: "Lato";
+    letter-spacing: 2px;
+    padding-right: 20px; 
+  }
+  
+
+  .langues ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .langues li {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 1em;
+  }
+
+  .langues .label_l {
+    font-weight: bold;
+    color: #333;
+    padding-left: 20px 
+  }
+  
+  .langues .label_result {
+    color: #000000; 
+    font-family: "Lato";
+    letter-spacing: 2px;
+    padding-right: 20px; 
+  }
+
+  .qualites ul {
+    list-style: none; 
+    padding-left: 20px;
+    margin: 0;
+  }
+  
+  .qualites li {
+    position: relative;
+    padding-left: 20px; 
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .qualites li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 8px;
+    height: 8px;
+    background-color: #17abb3; 
+    border-radius: 0; 
+  }
+  
+  .yoga ul {
+    list-style: none; 
+    padding-left: 20px;
+    margin: 0;
+  }
+  
+  .yoga li {
+    position: relative;
+    padding-left: 20px; 
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .yoga li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 8px;
+    height: 8px;
+    background-color: #17abb3; 
+    border-radius: 0; 
+  }
+
+
+
+  
+.formation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease, border-left 0.3s ease;
+  border-left: 3px solid transparent; 
+  ;
+}
+.formation:hover {
+  background-color: #e3e3e3;
+  border-left: 3px solid #17abb3;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  
+}
+.formation .left {
+  max-width: 70%;
+}
+
+.formation .right {
+  color: #17abb3;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.formation .sub {
+  font-style: italic;
+  color: #555;
+  font-size: 0.9em;
+}
+
+  
+
+
+
+
+.bloc_global {
+    flex-basis: 70%;
+    background: white;
+}
+.bloc_global p {
+    text-indent: 30px;
+    text-align: justify;
+}
+.bloc_global h3 {
+    font-family: 'Lato';
+    text-align: left;
+    padding-block: 10px;
+    color: #17abb3;
+    margin-bottom: 2px;  
+}
+.bloc_global hr {
+    border: 0.1px solid #b4b4b46b;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-family: 'Lato';
+    text-align: left;
+    padding-block: 10px;
+    color: #17abb3;
+}
+ 
+.footer { 
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    background-color: #17abb3;
+    padding: 15px 0;
+}
+
+.footer img {
+    width: 32px;
+    height: 32px;
+    margin: auto; 
+    padding-block: 10px;
+    text-align: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.footer img:hover {
+    opacity: 0.8;
+}
+
+
+.footer small {
+    padding-block: 10px;
+    color: white;
+    text-align: center;
+}
